@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC572ECE23B2CA84009C3196 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC572ECD23B2CA84009C3196 /* EditCards.swift */; };
+		FCAD7D6623ACCC8C00CC1064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD7D6523ACCC8C00CC1064 /* AppDelegate.swift */; };
+		FCAD7D6823ACCC8C00CC1064 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD7D6723ACCC8C00CC1064 /* SceneDelegate.swift */; };
+		FCAD7D6C23ACCC8E00CC1064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCAD7D6B23ACCC8E00CC1064 /* Assets.xcassets */; };
+		FCAD7D6F23ACCC8E00CC1064 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCAD7D6E23ACCC8E00CC1064 /* Preview Assets.xcassets */; };
+		FCAD7D7223ACCC8E00CC1064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAD7D7023ACCC8E00CC1064 /* LaunchScreen.storyboard */; };
+		FCAD7D7C23ACCFE300CC1064 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD7D7B23ACCFE300CC1064 /* Card.swift */; };
+		FCAD7D7E23ACD17F00CC1064 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD7D7D23ACD17F00CC1064 /* CardView.swift */; };
+		FCAD7D8023ACD38A00CC1064 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD7D7F23ACD38A00CC1064 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC572ECD23B2CA84009C3196 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
+		FCAD7D6223ACCC8C00CC1064 /* Flashzilla D88 Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flashzilla D88 Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAD7D6523ACCC8C00CC1064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCAD7D6723ACCC8C00CC1064 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCAD7D6B23ACCC8E00CC1064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCAD7D6E23ACCC8E00CC1064 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCAD7D7123ACCC8E00CC1064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCAD7D7323ACCC8E00CC1064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAD7D7B23ACCFE300CC1064 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		FCAD7D7D23ACD17F00CC1064 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FCAD7D7F23ACD38A00CC1064 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCAD7D5F23ACCC8C00CC1064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC572ECC23B2CA55009C3196 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD7D7F23ACD38A00CC1064 /* ContentView.swift */,
+				FCAD7D7D23ACD17F00CC1064 /* CardView.swift */,
+				FC572ECD23B2CA84009C3196 /* EditCards.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCAD7D5923ACCC8C00CC1064 = {
+			isa = PBXGroup;
+			children = (
+				FCAD7D6423ACCC8C00CC1064 /* Flashzilla D88 Card */,
+				FCAD7D6323ACCC8C00CC1064 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCAD7D6323ACCC8C00CC1064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD7D6223ACCC8C00CC1064 /* Flashzilla D88 Card.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCAD7D6423ACCC8C00CC1064 /* Flashzilla D88 Card */ = {
+			isa = PBXGroup;
+			children = (
+				FC572ECC23B2CA55009C3196 /* View */,
+				FCAD7D6523ACCC8C00CC1064 /* AppDelegate.swift */,
+				FCAD7D7B23ACCFE300CC1064 /* Card.swift */,
+				FCAD7D6723ACCC8C00CC1064 /* SceneDelegate.swift */,
+				FCAD7D6B23ACCC8E00CC1064 /* Assets.xcassets */,
+				FCAD7D7023ACCC8E00CC1064 /* LaunchScreen.storyboard */,
+				FCAD7D7323ACCC8E00CC1064 /* Info.plist */,
+				FCAD7D6D23ACCC8E00CC1064 /* Preview Content */,
+			);
+			path = "Flashzilla D88 Card";
+			sourceTree = "<group>";
+		};
+		FCAD7D6D23ACCC8E00CC1064 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD7D6E23ACCC8E00CC1064 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCAD7D6123ACCC8C00CC1064 /* Flashzilla D88 Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAD7D7623ACCC8E00CC1064 /* Build configuration list for PBXNativeTarget "Flashzilla D88 Card" */;
+			buildPhases = (
+				FCAD7D5E23ACCC8C00CC1064 /* Sources */,
+				FCAD7D5F23ACCC8C00CC1064 /* Frameworks */,
+				FCAD7D6023ACCC8C00CC1064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flashzilla D88 Card";
+			productName = "Flashzilla D88 Card";
+			productReference = FCAD7D6223ACCC8C00CC1064 /* Flashzilla D88 Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCAD7D5A23ACCC8C00CC1064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Luc Derosne";
+				TargetAttributes = {
+					FCAD7D6123ACCC8C00CC1064 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FCAD7D5D23ACCC8C00CC1064 /* Build configuration list for PBXProject "Flashzilla D88 Card" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCAD7D5923ACCC8C00CC1064;
+			productRefGroup = FCAD7D6323ACCC8C00CC1064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCAD7D6123ACCC8C00CC1064 /* Flashzilla D88 Card */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCAD7D6023ACCC8C00CC1064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAD7D7223ACCC8E00CC1064 /* LaunchScreen.storyboard in Resources */,
+				FCAD7D6F23ACCC8E00CC1064 /* Preview Assets.xcassets in Resources */,
+				FCAD7D6C23ACCC8E00CC1064 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCAD7D5E23ACCC8C00CC1064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAD7D6623ACCC8C00CC1064 /* AppDelegate.swift in Sources */,
+				FCAD7D8023ACD38A00CC1064 /* ContentView.swift in Sources */,
+				FCAD7D6823ACCC8C00CC1064 /* SceneDelegate.swift in Sources */,
+				FC572ECE23B2CA84009C3196 /* EditCards.swift in Sources */,
+				FCAD7D7C23ACCFE300CC1064 /* Card.swift in Sources */,
+				FCAD7D7E23ACD17F00CC1064 /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCAD7D7023ACCC8E00CC1064 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAD7D7123ACCC8E00CC1064 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCAD7D7423ACCC8E00CC1064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCAD7D7523ACCC8E00CC1064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCAD7D7723ACCC8E00CC1064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Flashzilla D88 Card/Preview Content\"";
+				DEVELOPMENT_TEAM = Y7TNCJPS5N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Flashzilla D88 Card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ac10qt.Flashzilla-D88-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCAD7D7823ACCC8E00CC1064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Flashzilla D88 Card/Preview Content\"";
+				DEVELOPMENT_TEAM = Y7TNCJPS5N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Flashzilla D88 Card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ac10qt.Flashzilla-D88-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCAD7D5D23ACCC8C00CC1064 /* Build configuration list for PBXProject "Flashzilla D88 Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAD7D7423ACCC8E00CC1064 /* Debug */,
+				FCAD7D7523ACCC8E00CC1064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAD7D7623ACCC8E00CC1064 /* Build configuration list for PBXNativeTarget "Flashzilla D88 Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAD7D7723ACCC8E00CC1064 /* Debug */,
+				FCAD7D7823ACCC8E00CC1064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCAD7D5A23ACCC8C00CC1064 /* Project object */;
+}
